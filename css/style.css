@@ -552,6 +552,18 @@ pre code {
   margin-left: auto;
 }
 
+.hero-container{
+  
+    height: 600px;
+    width: 100%;
+    text-align: center;
+  
+  }
+  
+  h1 {
+    padding-top: 20%;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -10149,7 +10161,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../images/adamthedev_2514867869112716099.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10459,7 +10471,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("images/adamthedev_2514867869112716099.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
