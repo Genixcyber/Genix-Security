@@ -5,7 +5,20 @@
 */
 (function ($) {
     "use strict"; // Start of use strict
+const text = document.getElementById('text');
+const prog = 'MY SELF 2TIMEOWL AND I AM ETHICAL HACKER AND WEB DEVELOPER';
+let idx = 1;
 
+setInterval(write, 110);
+function write(){
+    text.innerText = prog.slice(0,idx);
+    idx ++;
+    if (idx > prog.length) {
+        
+        idx=1;
+    }
+
+}
     // Smooth scrolling using anime.js
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
         if (
@@ -53,4 +66,5 @@
     // Collapse the navbar when page is scrolled
     $(window).on('scroll', navbarCollapse);
 
-})(jQuery); // End of use strict
+
+})(jQuery);// End of use strict
